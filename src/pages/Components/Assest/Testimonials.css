@@ -1,0 +1,119 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mySwiper1 .swiper-wrapper .swiper-slide {
+  width: 530px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.review-card {
+  padding: 3rem;
+  width: 100%;
+  background-color: #808080b8;
+  border-radius: 12px;
+  border: 2px solid rgb(38, 38, 38);
+}
+
+.review-image {
+  /* margin: 0.1rem auto; */
+  width: 100px;
+  height: 100px;
+}
+
+.studentReview {
+  margin-left: 0.5rem;
+}
+
+.review-img {
+  width: 100px;
+  height: 100px;
+}
+
+.review-image img {
+  border-radius: 50%;
+}
+
+.review-title {
+  font-size: 1.5rem;
+  color: #2b2b2b;
+  text-align: start;
+  margin-bottom: 0% !important;
+}
+
+.review-desig {
+  color: #2b2b2b;
+  text-align: start;
+}
+
+.review-content {
+  padding: 1rem 2rem;
+}
+
+.review-para {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+.quotes {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.details {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .review-card {
+    padding: 0rem;
+    width: 70%;
+    background-color: #808080b8;
+    border-radius: 12px;
+    border: 2px solid rgb(38, 38, 38);
+  }
+
+  .review-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .review-image img {
+    border-radius: 50%;
+  }
+  .studentReview {
+    margin-left: 0;
+  }
+
+  .review-title {
+    margin-top: 0.5rem;
+    text-align: center !important;
+  }
+
+  .review-desig {
+    text-align: center;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
